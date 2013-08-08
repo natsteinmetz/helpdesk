@@ -45,7 +45,7 @@ class TicketsController < ApplicationController
     respond_to do |format|
       if @ticket.save
         # Tell the TicketMailer to send a new ticket notification to helpdesk
-        TicketMailer.received_new_ticket_email(@ticket).deliver
+        TicketMailer.received_ticket(@ticket).deliver
 
         format.html { redirect_to @ticket, notice: 'Ticket was successfully created.' }
         format.json { render json: @ticket, status: :created, location: @ticket }
