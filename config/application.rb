@@ -55,6 +55,9 @@ module Helpdesk
 
     config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
+    config.action_mailer.delivery_method = :postmark
+    config.action_mailer.postmark_settings = { :api_key => "fc898b0d-0943-4cf7-8b72-ec6f3db9229b" }
+
     # Enable the asset pipeline
     config.assets.enabled = true
 

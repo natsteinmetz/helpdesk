@@ -5,6 +5,10 @@ ruby '2.0.0'
 gem 'rails', '3.2.13'
 gem 'dynamic_form', '1.1.4'
 
+gem 'postmark'
+gem 'postmark-rails', '~> 0.5.1'
+gem 'postmark-mitt'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
