@@ -53,7 +53,7 @@ module Helpdesk
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
-    config.action_mailer.default_url_options = { host: 'boiling-everglades-6096.herokuapp.com' }
+    config.action_mailer.default_url_options = { :host: 'boiling-everglades-6096.herokuapp.com' }
 
     config.action_mailer.delivery_method = :postmark
     config.action_mailer.postmark_settings = { :api_key => "fc898b0d-0943-4cf7-8b72-ec6f3db9229b" }

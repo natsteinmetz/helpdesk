@@ -3,7 +3,7 @@ class TicketMailer < ActionMailer::Base
 
   def received_ticket(ticket)
     @ticket = ticket
-    @url  = "http://#{:host}/ticket/#{ticket.id}"
+    @url  = ticket_url(@ticket)
     mail(to: "helpdesk@nathaliesteinmetz.net",
          subject: "New ticket received: #{ticket.name}")
   end
