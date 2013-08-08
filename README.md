@@ -6,6 +6,8 @@ The app represents a helpdesk where tickets can be created. When a ticket is cre
 
 Currently only the first part of this process is working, that is the sending of email to the helpdesk email address.
 
+![Screenshot] (/lib/assets/Screen Shot 2013-08-08 at 2.08.25 PM.png)
+
 
 
 
