@@ -11,7 +11,7 @@ By [Nathalie Steinmetz](http://www.linkedin.com/in/nathaliesteinmetz).
 
 ## License
 
-[MIT License] (http://opensource.org/licenses/MIT)
+[MIT License] (LICENSE.txt)
 
 
 
